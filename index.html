@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketWorld - Accueil</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://i.pinimg.com/736x/0e/31/d6/0e31d65535eca10ee6abbda209dc8824.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">BasketWorld</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="Histoire.html">Histoire</a></li>
+                    <li><a href="Règles.html">Règles</a></li>
+                    <li><a href="Joueurs.html">Joueurs</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Bienvenue dans l'univers du Basket</h1>
+            <p>Découvrez la passion, l'histoire et les légendes de ce sport fascinant</p>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Actualités du Basket</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="0846045fc4e0f4430c3f8085b050c03c.jpg" alt="Lonzo">
+                    <div class="card-content">
+                        <h3>Tournoi International 2023</h3>
+                        <p>Les préparatifs du championnat du monde 2023 sont en cours avec des équipes surprises qualifiées...</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80" alt="Nouveau talent">
+                    <div class="card-content">
+                        <h3>La révélation de la saison</h3>
+                        <p>À seulement 19 ans, Marcus Johnson impressionne les recruteurs avec des performances exceptionnelles...</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="basketball-et-innovation-technologique.webp" alt="tech">
+                    <div class="card-content">
+                        <h3>La tech révolutionne le basket</h3>
+                        <p>Nouveaux capteurs intelligents dans les ballons et maillots pour analyser les performances...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 BasketWorld. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#">FB</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+                <a href="#">YT</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
